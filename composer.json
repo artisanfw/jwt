@@ -1,0 +1,22 @@
+{
+  "name": "artisanfw/jwt",
+  "description": "An easy-way implementation of JWT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Airam Batista",
+      "email": "airamb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "firebase/php-jwt": "^6.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Artisan\\Services\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
