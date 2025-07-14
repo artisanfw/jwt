@@ -32,7 +32,7 @@ class JWT
 
     private function __clone() {}
 
-    private function __wakeup(): void
+    public function __wakeup(): void
     {
         throw new RuntimeException("Cannot unserialize singleton");
     }
